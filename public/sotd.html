@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song Of The Day | Follow Me</title>
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/swipebox.css">
+
+    <script src="js/vendor/modernizr.js"></script>
+	<style>
+		body{
+		}
+
+		@font-face {
+ 		   	font-family: rockwell;
+
+    		src: url(ROCK.ttf);
+		}
+
+		@font-face {
+			font-family:LeagueGothic;
+			src:url('{{URL::asset('LeagueGothic-Regular.otf')}}');
+		}
+
+		@font-face{
+			font-family: Mohave;
+			src:url(Mohave-Bold.otf);
+		}
+
+		h3,h1{
+			font-family: Mohave;
+		}
+
+
+		h3{
+			color:#b22;
+			margin-bottom: 0.2em;
+		}
+
+		hr.songtitlehr{
+			border: 1px solid #999;
+			margin: 0px;
+		}
+
+		 hr.songtitlehr{
+		 	border: 1px solid #222;
+  		 	margin: auto;
+  		 }
+
+		.top-bar-section li:not(.has-form) a:not(.button){
+			background: #fff;
+			color: #333;
+		}
+
+
+
+		div.headtext{
+			font-family:"rockwell";
+			font-size: 60px;
+		   	color: #000;
+		   	margin-top: 100px;
+		   	margin-bottom: 100px;
+		   	height: 200px;
+		}
+
+
+
+		.top-bar{
+			background-color:#fff;
+			color:#000;
+		}
+
+		.top-bar .name h1 a{
+			color:#333;
+			font-size: 1.4rem;
+		}
+
+
+		.top-bar .name h1 a:hover{
+			color:#b22;
+		}
+
+
+		.top-bar .right li a{
+			color:#333;
+			font-size: 1.4rem;
+		}
+
+		.top-bar .toggle-topbar.menu-icon a{
+			color:#333;
+		}
+
+  		.songtitle{
+  			font-family: Mohave;
+  			font-size: 1.8em;
+  			margin-top: 10px;
+  			margin-bottom: 0px;
+  			text-align: center;display: inline-block;
+  		}
+
+  		.songartist{
+  			font-family: LeagueGothic;
+  			font-size: 1.2em;
+  			text-align: center;
+  		}
+
+
+  		.sotd{
+  			font-family: LeagueGothic;
+  			font-weight: 500;	
+  			font-size: 1.5em;
+  			margin-top: 0;
+  			margin-bottom: 1.25em;
+  			text-align: center;
+  		}
+  		.sotd2{
+  			font-family: LeagueGothic;
+  			font-weight: 500;	
+  			font-size: 1.5em;
+  			margin-bottom: 0;
+  			margin-top: 1.25em;
+  			text-align: center;
+  		}
+
+  		
+
+		.line{
+			display: table; 
+			margin: 0 auto; 
+
+			padding-top: 20px;
+			border-bottom: 1px solid #aaa;
+		}
+
+  		 .line img{
+  		 	border: 1px #ccc solid;
+  		 	margin-bottom: 25px;
+  		 	transition: all 0.5s;
+  		 }
+
+  		 .line img:hover{
+  		 	cursor: pointer;
+  		 	opacity: 0.75;
+  		 	  		 }
+
+
+@media only screen and (max-width: 40em) {
+	  	.line img{
+  		 	width:60%;
+  		 	margin-right: 20%;
+  		 	margin-left: 20%;
+  		 	display: block;
+  		 }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		.line img{
+  		 	width:100px;
+  		 	margin-right: 10px;
+  		 	margin-left: 10px;
+  		 	display: inline-block;
+  		 }
+}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+		.line img{
+  		 	width:150px;
+  		 	margin-right: 25px;
+  		 	margin-left: 25px;
+  		 	display: inline-block;
+  		 }
+
+ }
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+		.line img{
+  		 	width:200px;
+  		 	margin-right: 25px;
+  		 	margin-left: 25px;
+  		 	display: inline-block;
+  		 }
+
+}
+
+@media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
+	.line img{
+  		 	width:250px;
+  		 	margin-right: 25px;
+  		 	margin-left: 25px;
+  		 	display: inline-block;
+  		 }
+}
+
+</style>
+</head>
+<body >
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Carl Saldanha</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      </li>
+    </ul>
+
+  </section>
+</nav>
+<div class='row'>
+<div class='large-4 small-12 medium-8 columns medium-offset-2 large-offset-4 '>
+	<hr class='songtitlehr small-6 small-offset-3'>
+	<p class='sotd'>SONG OF THE DAY</p>
+		<p class='songtitle large-12 medium-12 small-12'>Follow Me</p>
+		<p class='songartist large-12 medium-12 small-12'>UNCLE KRACKER</p>
+
+	<p class='sotd2  '>SONG OF THE DAY</p>
+
+	<hr class='songtitlehr small-6 small-offset-3'>
+</div>	
+</div>
+
+<div class='line'>
+		<a href="img/follow me/you dont know how you met me.jpg" class="swipebox" title="You don't know how you met me. You don't know why"> 
+		<img src="img/follow me/you dont know how you met me.jpg" />
+		</a>
+		<a href="img/follow me/you cant turn around and say goodbye.jpg" class="swipebox" title="You can't turn around and say goodbye"> 
+		<img src="img/follow me/you cant turn around and say goodbye.jpg" />
+		</a>
+		<a href="img/follow me/all you know is when im with you.jpg" class="swipebox" title="All you know is when I'm with you">
+			<img src="img/follow me/all you know is when im with you.jpg"/>
+		</a>
+		<a href="img/follow me/and swim through your veins like a fish in the sea.jpg" class="swipebox" title="And swim through your veins like a fish in the sea">
+			<img src="img/follow me/and swim through your veins like a fish in the sea.jpg" />
+		</a>
+
+</div>
+
+<div class='line'>
+	<a href="img/follow me/im singing.jpg" class="swipebox" title="I'm singing"> 
+		<img src="img/follow me/im singing.jpg" />
+	</a>
+<a href="img/follow me/follow me.jpg" class="swipebox" title="Follow me, everything is alright"> 
+		<img src="img//follow me/follow me.jpg"  />
+		</a>
+	<a href="img/follow me/ill be the one to tuck you in at night.jpg" class="swipebox" title="I'll be the one to tuck you in at night"> 
+		<img src="img/follow me/ill be the one to tuck you in at night.jpg" />
+	</a>
+	<a href="img/follow me/and if you want to leave.jpg" class="swipebox" title="And if you want to leave"> 
+		<img src="img/follow me/and if you want to leave.jpg" />
+	</a>
+</div>
+<div class='line'>
+	<a href="img/follow me/i can guarantee.jpg" class="swipebox" title="I can guarantee"> 
+		<img src="img/follow me/i can guarantee.jpg" />
+	</a>
+	<a href="img/follow me/you wont find nobody else like me.jpg" class="swipebox" title="You wont find nobody else like me"> 
+		<img src="img//follow me/you wont find nobody else like me.jpg"  />
+	</a>
+	<a href="img/follow me/im not worried about the ring you wear.jpg" class="swipebox" title="I'm not worried about the ring you wear"> 
+	<img src="img/follow me/im not worried about the ring you wear.jpg" />
+	</a>
+	<a href="img/follow me/cause as long as no one knows then nobody can care.jpg" class="swipebox" title="Cause as long as no one knows then nobody can care"> 
+		<img src="img/follow me/cause as long as no one knows then nobody can care.jpg" />
+	</a>
+</div>
+<div class='line'>	
+	<a href="img/follow me/youre feeling guilty and im well aware.jpg" class="swipebox" title="You're feeling guilty and I'm well aware"> 
+		<img src="img/follow me/youre feeling guilty and im well aware.jpg" />
+	</a>
+
+	<a href="img/follow me/but you dont look ashamed and baby im not scared.jpg" class="swipebox" title="But you dont look ashamed and baby I'm not scared"> 
+	<img src="img/follow me/but you dont look ashamed and baby im not scared.jpg" />
+	</a>
+	<a href="img/follow me/im singing.jpg" class="swipebox" title="I'm singing"> 
+		<img src="img/follow me/im singing.jpg" />
+	</a>
+<a href="img/follow me/follow me.jpg" class="swipebox" title="Follow me, everything is alright"> 
+		<img src="img//follow me/follow me.jpg"  />
+		</a>
+</div>
+
+<div class='line'>	
+</a>
+	<a href="img/follow me/ill be the one to tuck you in at night.jpg" class="swipebox" title="I'll be the one to tuck you in at night"> 
+		<img src="img/follow me/ill be the one to tuck you in at night.jpg" />
+	</a>
+	<a href="img/follow me/and if you want to leave.jpg" class="swipebox" title="And if you want to leave"> 
+		<img src="img/follow me/and if you want to leave.jpg" />
+	</a>
+		<a href="img/follow me/i can guarantee.jpg" class="swipebox" title="I can guarantee"> 
+		<img src="img/follow me/i can guarantee.jpg" />
+	</a>
+	<a href="img/follow me/you wont find nobody else like me.jpg" class="swipebox" title="You wont find nobody else like me"> 
+		<img src="img//follow me/you wont find nobody else like me.jpg"  />
+	</a>
+</div>
+
+
+<div class=' line' >
+	<a href="img/follow me/wont give you money i cant give you the sky.jpg" class="swipebox" title="Won't give you money, I can't give you the sky"> 
+		<img src="img//follow me/wont give you money i cant give you the sky.jpg"  />
+	</a>
+	<a href="img/follow me/youre better off if dont ask why.jpg" class="swipebox" title="You're better off if you don't ask why"> 
+		<img src="img/follow me/youre better off if dont ask why.jpg" />
+	</a>
+	<a href="img/follow me/im not the reason that you go astray.jpg" class="swipebox" title="I'm not the reason that you go astray"> 
+		<img src="img/follow me/im not the reason that you go astray.jpg" />
+	</a>
+	<a href="img/follow me/well be alright if you dont ask me to stay.jpg" class="swipebox" title="We'll be alright if you dont ask me to stay"> 
+		<img src="img//follow me/well be alright if you dont ask me to stay.jpg"  />
+	</a>
+</div>
+
+<div class='line'>
+	<a href="img/follow me/im singing.jpg" class="swipebox" title="I'm singing"> 
+		<img src="img/follow me/im singing.jpg" />
+	</a>
+<a href="img/follow me/follow me.jpg" class="swipebox" title="Follow me, everything is alright"> 
+		<img src="img//follow me/follow me.jpg"  />
+		</a>
+	<a href="img/follow me/ill be the one to tuck you in at night.jpg" class="swipebox" title="I'll be the one to tuck you in at night"> 
+		<img src="img/follow me/ill be the one to tuck you in at night.jpg" />
+	</a>
+	<a href="img/follow me/and if you want to leave.jpg" class="swipebox" title="And if you want to leave"> 
+		<img src="img/follow me/and if you want to leave.jpg" />
+	</a>
+</div>
+
+<div class='line' >
+		<a href="img/follow me/i can guarantee.jpg" class="swipebox" title="I can guarantee"> 
+		<img src="img/follow me/i can guarantee.jpg" />
+	</a>
+	<a href="img/follow me/you wont find nobody else like me.jpg" class="swipebox" title="You wont find nobody else like me"> 
+		<img src="img//follow me/you wont find nobody else like me.jpg"  />
+	</a>
+	<a href="img/follow me/you dont know how you met me.jpg" class="swipebox" title="You don't know how you met me. You don't know why"> 
+	<img src="img/follow me/you dont know how you met me.jpg" />
+	</a>
+	<a href="img/follow me/you cant turn around and say goodbye.jpg" class="swipebox" title="You can't turn around and say goodbye"> 
+	<img src="img/follow me/you cant turn around and say goodbye.jpg" />
+	</a>
+</div>
+
+<div class='line' >
+		<a href="img/follow me/all you know is when im with you.jpg" class="swipebox" title="All you know is when I'm with you">
+			<img src="img/follow me/all you know is when im with you.jpg"/>
+		</a>
+		<a href="img/follow me/and swim through your veins like a fish in the sea.jpg" class="swipebox" title="And swim through your veins like a fish in the sea">
+			<img src="img/follow me/and swim through your veins like a fish in the sea.jpg" />
+		</a>
+	<a href="img/follow me/im singing.jpg" class="swipebox" title="I'm singing"> 
+		<img src="img/follow me/im singing.jpg" />
+	</a>
+<a href="img/follow me/follow me.jpg" class="swipebox" title="Follow me, everything is alright"> 
+		<img src="img//follow me/follow me.jpg"  />
+		</a>
+</div>
+
+<div class='line'>
+
+	<a href="img/follow me/ill be the one to tuck you in at night.jpg" class="swipebox" title="I'll be the one to tuck you in at night"> 
+		<img src="img/follow me/ill be the one to tuck you in at night.jpg" />
+	</a>
+	<a href="img/follow me/and if you want to leave.jpg" class="swipebox" title="And if you want to leave"> 
+		<img src="img/follow me/and if you want to leave.jpg" />
+		<a href="img/follow me/i can guarantee.jpg" class="swipebox" title="I can guarantee"> 
+		<img src="img/follow me/i can guarantee.jpg" />
+	</a>
+	<a href="img/follow me/you wont find nobody else like me.jpg" class="swipebox" title="You wont find nobody else like me"> 
+		<img src="img//follow me/you wont find nobody else like me.jpg"  />
+
+</div>
+</div>
+</div>
+</div>
+
+    <script src="js/vendor/jquery.js"></script>
+     <script src="js/jquery.arctext.js"></script>
+    <script src="js/foundation.min.js"></script>
+	<script src="js/jquery.swipebox.js"></script>
+
+    
+    <script>
+      $(document).foundation();
+
+      $('.sotd').arctext({radius:240});
+      $('.sotd2').arctext({radius:240, dir:-1});
+      $( '.swipebox' ).swipebox();
+
+    </script>
+
+</body>
+</html>
+
+
+

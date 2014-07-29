@@ -1,0 +1,140 @@
+		body{
+			background-color: #001822;
+		}
+
+		@font-face {
+ 		   	font-family: Lobster;
+    		src: url(Lobster.otf);
+		}
+		@font-face {
+ 		   	font-family: rockwell;
+    		src: url(KozGoPro-Light.otf);
+		}
+
+		@font-face {
+			font-family:LeagueGothic;
+			src:url(LeagueGothic-Regular.otf);
+		}
+
+		@font-face{
+			font-family: Mohave-Bold;
+			src:url(Mohave-Bold.otf);
+		}
+
+		@font-face{
+			font-family: Mohave;
+			src:url(Mohave.otf);
+		}
+
+		@font-face{
+			font-family: Kozuka;
+			src:url(KozGoPro-Light.otf);
+		}
+		
+
+		h3,h1{
+			font-family: Mohave;
+		}
+
+
+		h1{
+			color:#b22;
+			text-align: center;
+		}
+
+		hr{
+			border: 1px solid #222;
+			margin: 0px;
+		}
+
+		.top-bar-section li:not(.has-form) a:not(.button){
+			background: #001822;
+			color: #333;
+		}
+
+
+
+		div.headtext{
+			font-family:"rockwell";
+			font-size: 200px;
+		   	color: #fff;
+		   	margin-top: 100px;
+		   	margin-bottom: 100px;
+		   	height: 200px;
+		 	vertical-align: bottom;
+		}
+		div.headtext .mohave{
+			font-family:"Mohave";
+			font-size: 80px;
+		   	color: #fff;
+		   	vertical-align: 40%;
+		}
+
+		
+		.top-bar{
+			background-color: #001822;
+			color:#aaa;
+		}
+
+		.top-bar .name h1 a,.top-bar .name h1 a:visited{
+			color:#aaa;
+			font-size: 1.4rem;
+		}
+
+
+		.top-bar .name h1 a:hover{
+			color:#b22;
+		}
+
+
+		.top-bar .right li a{
+			color:#aaa;
+			font-size: 1.4rem;
+		}
+
+		.top-bar-section li:not(.has-form) a:not(.button){
+			color: #aaa;
+		}
+
+		.myname{
+			font-family: Mohave;
+			font-size: 3em;
+			color: #fff;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+
+		.hrline hr{
+			border: 2px solid #343434;
+			margin: 0px;
+		} 
+
+		.lobster{
+			font-family: Lobster;
+			font-size: 5em;
+			color: #005373;
+			text-align: center;
+			line-height: 1.2em;
+			vertical-align: bottom;
+		}
+
+		.kozuka {
+			font-family: rockwell;
+			font-size: 4em;
+			color: #005373;
+			text-align: center;
+			vertical-align:bottom;
+			padding: 0px;
+		}
+  
+  		.list ul{
+  			list-style: none;
+  			text-align: center;
+  		}
+
+  		.list li a{
+  			color: #fff;
+  			font-family: rockwell;
+  			text-align: justify;
+  			line-height: 1.7em;
+  		}
