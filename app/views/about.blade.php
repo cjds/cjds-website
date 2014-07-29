@@ -37,7 +37,7 @@ If you wish to contact me you can contact me at <a href='mailto:cjds@live.com'>c
 
 <div class='row'>
 <div class='small-12 medium-4  medium-offset-4 large-4  large-offset-4 columns para '>
-You can check out my <a href='{{URL::to('projects')}}'>projects</a>, download my <a href='{{URL::to('projects')}}'>resume</a> or visit my <a href='http://cjds.github.io/'>blog</a>.
+You can check out my <a href='{{URL::to('projects')}}'>projects</a>, download my <a href='{{URL::asset('Resume.docx')}}' >resume</a> or visit my <a href='http://cjds.github.io/'>blog</a>.
 </div>
 </div>
 

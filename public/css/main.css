@@ -1,5 +1,4 @@
 		@import url(http://fonts.googleapis.com/css?family=Lobster);
-		@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,800);
 		body{
 			background-color: #001822;
@@ -9,16 +8,6 @@
  		   	font-family: Lobster;
     		src: url(Lobster.otf);
 		}
-		@font-face {
- 		   	font-family: rockwell;
-    		src: url(KozGoPro-Light.otf);
-		}
-
-		@font-face {
-			font-family:LeagueGothic;
-			src:url(LeagueGothic-Regular.otf);
-		}
-
 		@font-face{
 			font-family: Mohave-Bold;
 			src:url(Mohave-Bold.otf);
@@ -28,12 +17,6 @@
 			font-family: Mohave;
 			src:url(Mohave.otf);
 		}
-
-		@font-face{
-			font-family: Kozuka;
-			src:url(KozGoPro-Light.otf);
-		}
-		
 
 		h3,h1{
 			font-family: Mohave;
@@ -58,7 +41,6 @@
 
 
 		div.headtext{
-			font-family:"rockwell";
 			font-size: 200px;
 		   	color: #fff;
 		   	margin-top: 100px;
@@ -122,7 +104,7 @@
 		}
 
 		.kozuka {
-			font-family: Lato;
+			font-family: Open Sans;
 			font-size: 4em;
 			color: #005373;
 			text-align: center;
@@ -136,14 +118,12 @@
   		}
 
   		.list li a{
-  			color: #fff;
-  			font-family: Lato;
-  			text-align: justify;
+  			text-decoration: underline;
   			line-height: 1.7em;
   		}
 
 
-  		  		.para{
+  		 .para{
   			color: #aaa;
   			font-family: Open Sans;
   			text-align: justify;

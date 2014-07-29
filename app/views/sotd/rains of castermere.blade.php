@@ -61,47 +61,47 @@
 
 <div class='line' style="">
 	<a href="{{URL::asset('img/rains of castermere/and who are you.jpg')}}" class="swipebox" title="And who are you"> 
-		<img src="{{URL::asset('img/rains of castermere/and who are you.jpg')}}"/>
+		<img src="{{URL::asset('smallimg/rains of castermere/and who are you.jpg')}}"/>
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/the proud lord said.jpg')}}" class="swipebox" title="The proud lord said"> 
-		<img src="{{URL::asset('img/rains of castermere/the proud lord said.jpg')}}" />
+		<img src="{{URL::asset('smallimg/rains of castermere/the proud lord said.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/that i must bow so low.jpg')}}" class="swipebox" title="That I must bow so low"> 		
-		<img src="{{URL::asset('img/rains of castermere/that i must bow so low.jpg')}}"/>
+		<img src="{{URL::asset('smallimg/rains of castermere/that i must bow so low.jpg')}}"/>
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/only a cat of a different coat.jpg')}}" class="swipebox" title="Only a cat of a different coat"> 
-	<img src="{{URL::asset('img/rains of castermere/only a cat of a different coat.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/only a cat of a different coat.jpg')}}" />
 	</a>
 
 </div>
 
 <div class='line' style="">
 	<a href="{{URL::asset('img/rains of castermere/thats all the truth I know.jpg')}}" class="swipebox" title="That's all the truth I know"> 
-	<img src="{{URL::asset('img/rains of castermere/thats all the truth I know.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/thats all the truth I know.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/a coat of gold a coat of red.jpg')}}" class="swipebox" title="A coat of gold a coat of red"> 
-	<img src="{{URL::asset('img/rains of castermere/a coat of gold a coat of red.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/a coat of gold a coat of red.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/a lion still has claws.jpg')}}" class="swipebox" title="A lion still has claws"> 
-	<img src="{{URL::asset('img/rains of castermere/a lion still has claws.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/a lion still has claws.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/and mine are long and sharp my lord.jpg')}}" class="swipebox" title="And mine are long and sharp my lord"> 
-	<img src="{{URL::asset('img/rains of castermere/and mine are long and sharp my lord.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/and mine are long and sharp my lord.jpg')}}" />
 	</a>
 </div>
 
 <div class='line' style="">
 	<a href="{{URL::asset('img/rains of castermere/as long and sharp as yours.jpg')}}" class="swipebox" title="as long and sharp as yours"> 
-	<img src="{{URL::asset('img/rains of castermere/as long and sharp as yours.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/as long and sharp as yours.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/and so he spoke.jpg')}}" class="swipebox" title="And so he spoke, and so he spoke"> 
 	<img src="{{URL::asset('img/rains of castermere/and so he spoke.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/that lord of castermere.jpg')}}" class="swipebox" title="That Lord of Castermere"> 
-	<img src="{{URL::asset('img/rains of castermere/that lord of castermere.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/that lord of castermere.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/but now the rains weep over his hall.jpg')}}" class="swipebox" title="But now the rains weep over his hall"> 
-	<img src="{{URL::asset('img/rains of castermere/but now the rains weep over his hall.jpg')}}"/>
+	<img src="{{URL::asset('smallimg/rains of castermere/but now the rains weep over his hall.jpg')}}"/>
 	</a>
 </div>
 
@@ -110,10 +110,10 @@
 	<img src="{{URL::asset('img/rains of castermere/with no one there to hear.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/yes now the rains weep over his halls.jpg')}}" class="swipebox" title="Yes, now the rains weep over his halls"> 
-	<img src="{{URL::asset('img/rains of castermere/yes now the rains weep over his halls.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/yes now the rains weep over his halls.jpg')}}" />
 	</a>
 	<a href="{{URL::asset('img/rains of castermere/with not a soul to hear.jpg')}}" class="swipebox" title="With not a soul to hear"> 
-	<img src="{{URL::asset('img/rains of castermere/with not a soul to hear.jpg')}}" />
+	<img src="{{URL::asset('smallimg/rains of castermere/with not a soul to hear.jpg')}}" />
 	</a>
 </div>
 

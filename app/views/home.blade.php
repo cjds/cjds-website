@@ -26,12 +26,12 @@
 	</div>
 	
 	<div class='row list'>
-		<ul style="list-style:none;color:#fff;">
-		
-		<li><a href="projects.html#gradhat">Gradhat | Lead Developer</a></li>
-		<li><a href="#">Song Of The Day | Design Project</a></li>
-		<li><a href="#">10</a></li>
-		<li><a href="{{URL::to('projects#gradhat');}}" style="font-size:1em;text-decoration:underline">
+		<ul style="list-style:none;color:#aaa;">
+
+		<li>Song Of The Day | <a href="{{URL::to('projects#sotd')}}">About</a> | <a href="{{URL::to('sotd')}}">Website</a></li>	
+		<li>Gradhat | <a href="{{URL::to('projects#gradhat')}}">About</a> | <a href="http://grad-hat.com">Website</a></li>
+		<li>10 | <a href="{{URL::to('projects#ten')}}">About</a> | <a href="https://play.google.com/store/apps/details?id=com.cjds.dactyl&hl=en">Play Store</a></a></li>
+		<li><a  style="color:#ccc;font-size:1.6em;"href="{{URL::to('projects');}}" style="font-size:1em;text-decoration:underline">
 more</a></li>
 		</ul>
 	</div>
