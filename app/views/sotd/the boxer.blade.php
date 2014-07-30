@@ -115,17 +115,22 @@
 	<a href="{{URL::asset('img/the boxer/but i get no offers.jpg')}}" class="swipebox" title="But I get no offers"> 
 		<img src="{{URL::asset('img/the boxer/but i get no offers.jpg')}}" />
 	</a>
+	<a href="{{URL::asset('img/the boxer/just a come on from the whores.jpg')}}" class="swipebox" title="Just a come on from the whores on 7th Avenue"> 
+		<img src="{{URL::asset('img/the boxer/just a come on from the whores.jpg')}}" />
+	</a>
+
 	<a href="{{URL::asset('img/the boxer/there were times when i was so lonesome.jpg')}}" class="swipebox" title="I do declare there were times when I was so lonesome"> 
 		<img src="{{URL::asset('img/the boxer/there were times when i was so lonesome.jpg')}}" />
 	</a>
-	<a href="{{URL::asset('img/the boxer/i took some comfort there.jpg')}}" class="swipebox" title="I took some comfort there"> 
-		<img src="{{URL::asset('img/the boxer/i took some comfort there.jpg')}}" />
-	</a>
-
 	
 </div>
 
 <div class='line'>
+<a href="{{URL::asset('img/the boxer/i took some comfort there.jpg')}}" class="swipebox" title="I took some comfort there"> 
+		<img src="{{URL::asset('img/the boxer/i took some comfort there.jpg')}}" />
+	</a>
+
+
 	<a href="{{URL::asset('img/the boxer/and wishing i was gone.jpg')}}" class="swipebox" title="And wishing I was gone"> 
 		<img src="{{URL::asset('img/the boxer/and wishing i was gone.jpg')}}" />
 	</a>
@@ -136,14 +141,14 @@
 		<img src="{{URL::asset('img/the boxer/winters arent bleeding me going home.jpg')}}" />
 	</a>
 
-	<a href="{{URL::asset('img/the boxer/in the clearing stands a boxer.jpg')}}" class="swipebox" title="In the clearing stands a boxer"> 
-		<img src="{{URL::asset('img/the boxer/in the clearing stands a boxer.jpg')}}" />
-	</a>
-
 	
 </div>
 
 <div class='line'>
+	<a href="{{URL::asset('img/the boxer/in the clearing stands a boxer.jpg')}}" class="swipebox" title="In the clearing stands a boxer"> 
+		<img src="{{URL::asset('img/the boxer/in the clearing stands a boxer.jpg')}}" />
+	</a>
+
 
 	<a href="{{URL::asset('img/the boxer/and a fighter by his trade.jpg')}}" class="swipebox" title="And a fighter by his trade"> 
 		<img src="{{URL::asset('img/the boxer/and a fighter by his trade.jpg')}}" />
@@ -155,14 +160,15 @@
 	<a href="{{URL::asset('img/the boxer/of every glove that laid him down.jpg')}}" class="swipebox" title="Of every glove that laid him down, or cut him till he cried out"> 
 		<img src="{{URL::asset('img/the boxer/of every glove that laid him down.jpg')}}" />
 	</a>
+</div>
+
+<div class='line'>
 
 		<a href="{{URL::asset('img/the boxer/in his anger and his pain.jpg')}}" class="swipebox" title="in his anger and his pain">
 			<img src="{{URL::asset('img/the boxer/in his anger and his pain.jpg')}}"/>
 		</a>
 
-</div>
 
-<div class='line'>
 	<a href="{{URL::asset('img/the boxer/i am leaving.jpg')}}" class="swipebox" title="I am leaving, I am leaving">
 		<img src="{{URL::asset('img/the boxer/i am leaving.jpg')}}" />
 	</a>
