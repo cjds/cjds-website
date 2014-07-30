@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('content')
-<div class='medium-6  medium-offset-3 large-4  large-offset-4 columns' style="margin-top:100px;">
+<div class='medium-6  medium-offset-3 large-4  large-offset-4 columns' style="margin-top:50px;">
 	<div class='row '>
 		<div class='myname columns large-12' id='myname'>Carl Saldanha</div>
 	</div>
