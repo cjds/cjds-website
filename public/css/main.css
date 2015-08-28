@@ -1,7 +1,9 @@
 		@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,800);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 		body{
-			background-color: #001822;
+			background-color: #FFF8F7;
 		}
 
 		@font-face {
@@ -18,26 +20,35 @@
 			src:url(Mohave.otf);
 		}
 
-		h3,h1{
+		h3,h1,h2{
 			font-family: Mohave;
 		}
 
 
-		h1{
+		h1,h2{
 			color:#b22;
 			text-align: left;
 		}
 
 		hr{
-			border: 1px solid #222;
+			border: 1px solid #666;
 			margin: 0px;
 		}
 
 		.top-bar-section li:not(.has-form) a:not(.button){
-			background: #001822;
+			background: #FFF8F7;
 			color: #333;
 		}
 
+		.menu{
+			list-style: none;
+
+		}
+
+		.menu li{
+			display: inline-block;
+			text-align: center;
+		}
 
 
 		div.headtext{
@@ -57,12 +68,12 @@
 
 		
 		.top-bar{
-			background-color: #001822;
-			color:#aaa;
+			background-color: #FFF8F7;
+			color:#666;
 		}
 
 		.top-bar .name h1 a{
-			color:#aaa;
+			color:#666;
 			font-size: 1.4rem;
 		}
 
@@ -73,18 +84,18 @@
 
 
 		.top-bar .right li a{
-			color:#aaa;
+			color:#666;
 			font-size: 1.4rem;
 		}
 
 		.top-bar-section li:not(.has-form) a:not(.button){
-			color: #aaa;
+			color: #666;
 		}
 
 		.myname{
 			font-family: Mohave;
 			font-size: 3em;
-			color: #fff;
+			color: #3e3e3e;
 			margin-bottom: 10px;
 			text-align: center;
 		}
@@ -124,8 +135,43 @@
 
 
   		 .para{
-  			color: #aaa;
-  			font-family: Open Sans;
+  			color: #333;
+  			font-family: 'Lora',Arial;
+  			font-size: 1.4em;
   			text-align: justify;
   			margin-bottom: 50px;
   		}
+
+
+		.box{
+		 	padding: 25px;
+		 	border-top: solid 1px #ccc;
+			box-shadow: 0px 5px 5px #ccc;	
+		}
+
+		button{
+			font-family: 'Open Sans';
+			color: #0a3040;
+			 border-radius:6px;
+			 border: 2px solid #0a3040;
+			 border-top: 1px solid #0a3040;
+			 border-bottom: 5px solid #0a3040;  
+			 background: #FFF8F7;
+
+			 margin: 0 0  1rem; 
+			 padding: 0.9rem
+		}
+
+		button:hover{
+			font-family: 'Open Sans';
+			color: #FFF8F7;
+			 border-radius:6px;
+			 border: 2px solid #0a3040;
+			 border-top: 1px solid #0a3040;
+			 border-bottom: 5px solid #0a3040;  
+			 background: #0a3040;
+
+			 margin: 0 0  1rem; 
+			 padding: 0.9rem
+
+		}
