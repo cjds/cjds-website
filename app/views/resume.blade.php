@@ -14,7 +14,8 @@
 
 
 	.resume{
-		font-family: 'Open Sans'
+		font-family: 'Open Sans';
+		margin-top: 50px;
 	}
 
 	ul.resumelist{
@@ -40,7 +41,7 @@
 <div class='small-12 medium-4  medium-offset-4 large-6 large-offset-3 box columns resume'>
 
 <div class='row'>
-<h1 style="display:inline">Résumé</h1> <button class='right'>Download a PDF</button>
+<h1 style="display:inline">Résumé</h1> <button class='right'><a href='https://www.dropbox.com/s/yek9orag9vcb9f1/Resume.pdf?dl=0'>Download a PDF</a></button>
 <hr />
 </div>
 
@@ -100,12 +101,12 @@
 <div class='row'>
 <h3> Projects </h3>
 <ul class="resumelist">
+	<li>Genetic Algorithm Soccer</li><span class='right hide-for-small-only'>Jan 2015 - Apr 2015</span>
+	<p>Agents that learn how to play soccer by themselves. This uses genetic algorithms train the agents to brat their opponents</p>
+	<li>Rosie</li><span class='right hide-for-small-only'>Jan 2015 - Present</span>
+	<p>A cooking machine that lets you use make food via an app. The machine allows you to automate the parts of cooking that you do not need to be there for.</p>
 	<li>Gradhat</li><span class='right hide-for-small-only'>Aug 2014 - May 2014</span>
 	<p>Created a web application that helps stu¬dents learning collaboratively and allows teachers to share their notes and information. Lead the team that created the website and designed the database and software. </p>
-	<li>Genetic Algorithm Soccer</li><span class='right hide-for-small-only'>Jan 2015 - Apr 2015</span>
-	<p>Agents that learn how to play soccer by themselves</p>
-	<li>Rosie</li><span class='right hide-for-small-only'>Jan 2015 - Present</span>
-	<p>A cooking machin that lets you use an app to cook while automating the parts you don't need to be there for</p>
 	<li>Kung Pao Curry:</li><span class='right hide-for-small-only'>May 2014 - Dec 2014</span>
 	<p>An Android app that uses Artificial Intelligence to pick which dishes you would like in a restaurant before you go there. It is personalized to your tastes.
 Won the Convergence Innovation Competition At Georgia Tech</p>
@@ -122,7 +123,7 @@ Won the Convergence Innovation Competition At Georgia Tech</p>
 <li>Learning a Language for Co-Operative Tasks</li>
 <p>Paper presented at the International Conference on Emerging Trends in Computer Science and Engineering, 2013. Created a system by which robots could create their own language and describe tasks. Co-lead of the research team an designed the algorithm. 
 
-<span class='tag'>Java</span>
+<!--<span class='tag'>Java</span>-->
 </p>
 
 <li>Computational Creativity - Digital Poems : </li>
@@ -133,13 +134,13 @@ Won the Convergence Innovation Competition At Georgia Tech</p>
 <div class='row'>
 <h3> Hackathons </h3>
 <ul class="resumelist">
-<li>VJTI, 10</li><span class='right hide-for-small-only'>2011</span>
-<p>10 is an app on android built by me. It's a simple minimalistic game that tests players reflexes.</p>
+<li>Harman Kardon, Games for the Hearing Impaired</li><span class='right hide-for-small-only'>2015</span>
+<p>Using the Harman Kardon Sound API, we created a game like Asteroids fir the blind with a 5.1 speaker system</p>
 <li>AT&T, Smartzone</li><span class='right hide-for-small-only'>2014</span>
 <p>Smartzone is an app that gathers data using the AT&T Digita Life API for insurance providers. It was designed so that insurance providers could use 
 data from the home to suggest better premiums</p>
-<li>Harman Kardon, Games for the Hearing Impaired</li><span class='right hide-for-small-only'>2015</span>
-<p>Using the Harman Kardon Sound API, we created a game like Asteroids fir the blind with a 5.1 speaker system</p>
+<li>VJTI, 10</li><span class='right hide-for-small-only'>2011</span>
+<p>10 is an app on android built by me. It's a simple minimalistic game that tests players reflexes.</p>
 </ul>
 <hr />
 </div>

@@ -2,20 +2,24 @@
 @section('content')
 
 <style type="text/css">
+	@media only screen and (min-width: 40.063em) { 
 	.imagesotd{
 		vertical-align:middle;margin-top:34px;border-right: 2px solid #666
+	}
+
+
 	}
 
     p{
     	font-family: 'Open Sans'
     }
 
-    span{
+    .mini-font{
     	font-size: 0.7em;
     	font-family: 'Open Sans'
     }
 </style>
-<div class='small-12 medium-6  medium-offset-3 large-6  large-offset-3 box columns' style="margin-top:100px;text-align:center">
+<div class='small-12 medium-6  medium-offset-3 large-6  large-offset-3 box columns' style="margin-top:50px;text-align:center">
 	
 	<div class='row' id='beatsmixer'>
 		<div class='small-12 medium-6 columns imagesotd'>
@@ -26,7 +30,7 @@
 			<div class='para'>
 			<p>An automatic poetry generator that uses gnetic algorithms to generate lines of poetry</p>
 			<p><b>Role:</b> Programmer and Researcher</p>
-			<span style='text-decoration:underline'><a href='http://www.windowsphone.com/en-in/store/app/beats-mixer/ac277ed6-70aa-4b14-a2ae-afa9b6ba0ee9'>Windows Phone Marketplace</a></span>
+			<span class='mini-font' style='text-decoration:underline'><a href='http://www.windowsphone.com/en-in/store/app/beats-mixer/ac277ed6-70aa-4b14-a2ae-afa9b6ba0ee9'>Windows Phone Marketplace</a></span>
 			</div>
 		</div>
 	</div>
@@ -42,7 +46,7 @@
 			<p>The genetic algorithm plays soccer against the opponents and gets better wth time
 			</p>
 			<p><b>Role:</b> Programmer and Researcher</p>
-			<span style='text-decoration:underline'><a href='http://www.iimun.in/'>Code on Github</a></span>
+			<span class='mini-font' style='text-decoration:underline'><a href='http://www.iimun.in/'>Code on Github</a></span>
 			</div>
 
 	</div>
@@ -58,7 +62,7 @@
 			<div class='para'>
 			<p>SOTD is a design project. I took the lyrics of one song each week and make it a series of pictures. Its an experiment both in designing and responsive web design.</p>
 			<p><b>Role:</b> Designer</p>
-			<span style='text-decoration:underline'><a href='{{URL::to('/sotd')}}'>Project Website</a></span>
+			<span class='mini-font' style='text-decoration:underline'><a href='{{URL::to('/sotd')}}'>Project Website</a></span>
 			</div>
 		</div>
 	</div>
@@ -73,8 +77,8 @@
 			<div class='para'>
 			<p>Gradhat is a website which lets students in Mumbai University ask and answer questions. It also allows teachers teaching the same syllabus to collabarate and create notes for students</p>
 			<p><b>Role:</b>Lead Programmer and Partner</p>
-			<span style='text-decoration:underline'><a href='http://grad-hat.com'>Website</a></span>|
-			<span style='text-decoration:underline'><a href='https://github.com/cjds/grad-hat'>Code on Github</a></span>
+			<span class='mini-font' style='text-decoration:underline'><a href='http://grad-hat.com'>Website</a></span>|
+			<span class='mini-font' style='text-decoration:underline'><a href='https://github.com/cjds/grad-hat'>Code on Github</a></span>
 			</div>
 		</div>
 	</div>
@@ -91,8 +95,8 @@
 		<div class='para'>
 			<p>10 is an app on android built by me. It's a simple minimalistic game that tests players reflexes.</p>
 			<p><b>Role:</b> Programmer and Designer</p>
-			<span style='text-decoration:underline'><a href='https://play.google.com/store/apps/details?id=com.cjds.dactyl&hl=en'>Android</a></span>
-			| <span style='text-decoration:underline'><a href='#'>Code on Github</a></span>
+			<span class='mini-font' style='text-decoration:underline'><a href='https://play.google.com/store/apps/details?id=com.cjds.dactyl&hl=en'>Android</a></span>
+			| <span class='mini-font' style='text-decoration:underline'><a href='#'>Code on Github</a></span>
 		</div>
 	</div>
 	</div>
@@ -109,7 +113,7 @@
 			<div class='para'>
 			<p>Beats Mixer is a Windows Phone app that allows you to mix several beats and create new music.</p>
 			<p><b>Role:</b> Programmer and Designer</p>
-			<span style='text-decoration:underline'><a href='http://www.windowsphone.com/en-in/store/app/beats-mixer/ac277ed6-70aa-4b14-a2ae-afa9b6ba0ee9'>Windows Phone Marketplace</a></span>
+			<span class='mini-font' style='text-decoration:underline'><a href='http://www.windowsphone.com/en-in/store/app/beats-mixer/ac277ed6-70aa-4b14-a2ae-afa9b6ba0ee9'>Windows Phone Marketplace</a></span>
 			</div>
 		</div>
 	</div>
