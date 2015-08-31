@@ -22,7 +22,7 @@
 
 	</div>
 	<div class='row'>
-	<div class="columns small-4 small-centered">
+	<div class="columns small-6 medium-4 small-centered">
 		<button class="centered even-3"> Contact me </button>
 	</div>
 	
