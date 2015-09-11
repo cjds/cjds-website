@@ -23,7 +23,7 @@
 	</div>
 	<div class='row'>
 	<div class="columns small-6 medium-4 small-centered">
-		<button class="centered even-3"> Contact me </button>
+		<button class="centered even-3"><a href='mailto:csaldanha3@gatech.edu'> Contact me </a></button>
 	</div>
 	
 	</div>
