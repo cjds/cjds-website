@@ -1,10 +1,11 @@
 {
 	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"description": "Carl Saldanha's Website.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+		"exr-mcrypt":
 	},
 	"autoload": {
 		"classmap": [
