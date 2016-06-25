@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 		body{
-			background-color: #FFF8F7;
+			background-color: #F7F8FF;
 		}
 
 		@font-face{
@@ -17,12 +17,13 @@
 
 		h3,h1,h2{
 			font-family: Mohave;
+			text-align: left;
 		}
 
 
 		h1,h2{
 			color:#b22;
-			text-align: left;
+			
 		}
 
 		hr{
@@ -58,7 +59,7 @@
 
 		
 		.top-bar{
-			background-color: #FFF8F7;
+			background-color: #F7F8FF;
 			color:#666;
 		}
 
@@ -80,7 +81,7 @@
 
 		.top-bar-section li:not(.has-form) a:not(.button){
 			color: #666;
-			background: #FFF8F7;
+			background: #F7F8FF;
 		}
 
 		.myname{
@@ -99,7 +100,7 @@
 		}
 
 		.top-bar.expanded .title-area{
-			background: #FFF8F7;
+			background: #F7F8FF;
 		}
 
 		.top-bar.expanded  .name h1 a{
@@ -155,13 +156,25 @@
 			box-shadow: 0px 5px 5px #ccc;	
 		}
 
+
+		.project-box{
+		 	padding: 5px;
+		 	border-top: solid 1px #ccc;
+			box-shadow: 0px 5px 5px #ccc;	
+		}
+
+		.project-top{
+			background:#9a9acc;
+			color:#fff;
+		}
+
 		button a{
 			font-family: 'Open Sans';
 			color: #0a3040;
 		}
 
 		button a:hover{
-			color: #FFF8F7;
+			color: #F7F8FF;
 		}
 		button{
 			color: #0a3040;
@@ -169,7 +182,7 @@
 			 border: 2px solid #0a3040;
 			 border-top: 1px solid #0a3040;
 			 border-bottom: 5px solid #0a3040;  
-			 background: #FFF8F7;
+			 background: #F7F8FF;
 
 			 margin: 0 0  1rem; 
 			 padding: 0.9rem

@@ -7,17 +7,16 @@
 	</div>
 	<div class='row'>
 		<p class="para">
-		Hi, my name is Carl Saldanha. I'm a designer and developer
-		doing my Masters at Georgia Tech.
+		Hi, I'm pursuing a MS in Computer Science degree
+		 at Georgia Institute of Technology specializing in Robotics and Perception.
 		</p>	
 		<p class="para">
-		I'm interested in 
+		I'm interested in:
 		</p>
 		<ul class="para">
-		<li>Multi Robot Systems and Robot Collaboration</li>
-		<li>Artificial Intelligence and Intelligent Design</li>
-		<li>Augmented Reality interfaces and interaction</li>
-		among other stuff
+		<li>Social and Web Robotics, and Robot Collaboration</li>
+		<li>Artificial Intelligence, and Machine Learning</li>
+		<li>Augmented and Mixed Reality</li>
 		</ul>		
 
 	</div>

@@ -22,8 +22,7 @@ Route::get('/about', function()
 
 Route::get('sotd', function()
 {
-
-		return View::make('sotd.home');
+	return View::make('sotd.home');
 });
 
 

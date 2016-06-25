@@ -14,7 +14,6 @@
 
 
 	.resume{
-		font-family: 'Open Sans';
 		margin-top: 50px;
 	}
 
@@ -26,8 +25,19 @@
 		font-weight: 900;
 		display: inline-block;
 	}
+
+	ul.resumeprojects li{
+		font-weight: 300;
+	}
+
+	ul.resumeprojects li.resumeheading{
+		font-weight: 900;
+		font-size: 1.1em
+	}
+
 	p{
-		margin-bottom:13px; 
+		margin-bottom:14px;
+		margin-left: 16px;
 	}
 
 	.tag{
@@ -49,100 +59,79 @@
 
 <div class='row'>
 <h3> Education </h3>
-<ul>
-<p style="display:inline-block">Masters, Computer Science, Georgia Tech. (GPA: 3.7)</p><span class='right hide-for-small-only' style='line-height:1.6'> 2014 - 2016 (expected)</span>
-<p style="display:inline-block">Bachelor, Computer Science, University Of Mumbai (GPA 3.8)</p><span class='right hide-for-small-only' style='line-height:1.6'> 2010 - 2014</span>
+<ul class='resumelist'>
+<li>MS, Computer Science, Georgia Institute of Technology </li><span class='right hide-for-small-only' style='line-height:1.6'> 2014 - Dec 2016 (expected)</span>
+<p><b>Relevant Courses:</b> Multi Robot Systems, Advanced Computer Vision, Prototyping Interactive Systems, Human Computer Interaction, Computability and Algorithms
 
+</p>
+<li>Bachelor, Computer Science, University Of Mumbai</li><span class='right hide-for-small-only' style='line-height:1.6'> 2010 - 2014</span>
+<p><b>Relevant Courses: </b>Robotics, Artificial Intelligence, Machine Learning, Computer Graphics, Computer Architecture, Algorithmic Analysis</p>
 </ul>
 <hr />
 
 </div>
 
-<div class='row'>
-<h3> Competencies </h3>
-<div class='small-6 columns'>
-	<ul>
 
-		<li>Java, C++</li>
-		<li>PHP, Python</li>
-		<li>HTML5 & CSS3</li>
-		<li>Android, Windows Phone</li>
-	</ul>
-</div>
-<div class='small-6 columns'>
-	<ul>
-	
-		<li>User Centered Designer</li>
-		<li>Artificial Intelligence Researcher</li>
-		<li>Ability to lead</li>
-		<li>Entrepreuner</li>
-	</ul>
-</div>
-<hr />
-
-</div>
 
 <div class='row'>
-<h3> Work Experience </h3>
-<ul class="resumelist">
-<li>Development Intern, Siemens Corporate Research</li><span class='right hide-for-small-only'>May 2015 - Dec 2015</span>
-<p>Worked in wearable computing and Augmented Reality. Secret Stuff. All good, I promise</p>
-<li>Graduate Research Assistant at Georgia Tech </li><span class='right hide-for-small-only'>Jan 2015 - Apr 2015</span>
-<p>Working with Georgia Tech Office of Information Technology to improve the registration system for students. Performed user experience and user testing while designing and developing a new interface.</p>
-<li>Software Developer at Edutek Infosystems</li><span class='right'>Mar 2013- Aug 2014</span>
-<p>Created applications for colleges. Created a series of modules for grading students and test taking. Worked to improve the software engine. Lead the 4 programming teams. Currently running in 12 institutions in India </p>
+	<h3> Work Experience </h3>
+	<ul class="resumelist">
+		<li>Georgia Tech Robot Autonomy and Interactive Learning Lab</li><span class='right hide-for-small-only'>Jan 2016 - Present</span>
+		<p>Working with Prof. Sonia Chernova on Robot Web Tools and the Robot Management System. Created a hierarchical task network generator in ROS that allows robots to adjust their plans on the fly based on concepts from ConceptNet</p>
+		<li>Georgia Tech Networking, Computing and Mobility Lab </li><span class='right hide-for-small-only'>Jan 2015 - Present</span>
+		<p>Working under Dr. Russ Clark and Dr. Matt Sanders to create a platform that allows student developers to access secure Georgia Tech data. Revamped the architecture and created methods for secure OAuth access.</p>
+		<li>Siemens Research</li><span class='right'>May 2015 - Dec 2015</span>
+		<p>Prototyped an augmented reality telepresence system for engineers to inspect wind turbines and rotors. Implemented gesture based interaction with leap motion. Developed computer vision algorithms to annotate the system components</p>
+	</ul>
+	<hr />
+</div>
 
-</ul>
-<hr />
 
+<div class='row'>
+	<h3> Skills </h3>
+	<ul class="resumelist">
+	<li>Competencies:</li>
+	<p>Robotics, Artificial Intelligence, Augmented Reality, Computer Vision, Web Development, RESTful API Design</p>
+	<li>Programming Languages: </li>
+	<p>Java (Proficient), Javascript (Proficient), Python (Proficient), C++ (Working Knowledge), PHP (Working Knowledge), SQL (Proficient), NoSQL (Working Knowledge), HTML5 & CSS3 (Proficient)</p>
+	<li>Technologies:</li>
+	<p>ROS, Torch, Theano, NLTK, Android Development, Node.JS, Angular.JS, Web Sockets</p>
+
+	</ul>
+	<hr />
 </div>
 
 
 <div class='row'>
 <h3> Projects </h3>
-<ul class="resumelist">
-	<li>Genetic Algorithm Soccer</li><span class='right hide-for-small-only'>Jan 2015 - Apr 2015</span>
-	<p>Agents that learn how to play soccer by themselves. This uses genetic algorithms train the agents to beat their opponents</p>
-	<li>Rosie</li><span class='right hide-for-small-only'>Jan 2015 - Present</span>
-	<p>A cooking machine that lets you use make food via an app. The machine uses a combination of fuzzy logic controllers and neural networks to prepare food.</p>
-	<li>Gradhat</li><span class='right hide-for-small-only'>Aug 2014 - May 2014</span>
-	<p>Created a web application that helps students learning collaboratively and allows teachers to share their notes and information. Lead the team that created the website and designed the database and software. </p>
-	<li>Kung Pao Curry:</li><span class='right hide-for-small-only'>May 2014 - Dec 2014</span>
-	<p>An Android app that uses Artificial Intelligence to pick which dishes you would like in a restaurant before you go there. It is personalized to your tastes.
-Won the Convergence Innovation Competition At Georgia Tech</p>
-
+<ul class="resumelist resumeprojects">
+	<li class='resumeheading'>Robotics:</li><p></p>
+	<li>Crowdsourcing Learning from Demonstration (Project under Prof. Chernova) </li><span class='right hide-for-small-only'>Apr 2016 - Present</span>
+	<p>Developed a series of interfaces that allows crowd users use to create a demonstration. We then learn from these demonstrations to train the robot to complete a task</p>
+	<li>Genetic Algorithm Soccer Playing Agents (Multi Robot Systems Project)</li><span class='right hide-for-small-only'>Jan 2015 - Apr 2015</span>
+	<p>Simulated a group of multi agent robots that develop a strategy for playing soccer through  a genetic algorithm. </p>
+	<li>Teaching Robots Cooperative Tasks (Project under Prof. Srinivasan)</li><span class='right hide-for-small-only'>Jan 2014 - Jun 2014</span>
+	<p>Designed and implemented an algorithm for multi-robot communication. Used genetic algorithms that allow robots to guess what sounds mean based on the action the other robots are taking</p>
+	<li class='resumeheading'>Machine Learning:</li><p></p>
+	<li>AR Mario (Project under Prof. Mark Riedl):</li><span class='right hide-for-small-only'>Sep 2015 - Present</span>
+	<p>	Developing an AR game in that uses AI and computer vision to generate the content. Created the AI for inferring scene locations from the point cloud and for potential game elements. </p>
+	<li>Deep Visual Questions (Advanced Computer Vision Project):</li><span class='right hide-for-small-only'>Jan 2016 - Apr 2016</span>
+	<p>	Created an LSTM (Long short term memory network), that is able to take in the content of an image and generate a series of natural language questions and answer pairs. This work is aimed at creating algorithms that can better answer questions about image.</p>
+	<li>Learning Food Taste with Neural Nets (Winner Georgia Tech Innovation Contest):</li><span class='right hide-for-small-only'>Aug 2014 - Dec 2014</span>
+	<p>	Measuring how much people liked the taste of particular dishes, and how they tasted that allowed us to model which dishes you would like. Designed and implemented the networks and implemented the Android app. </p>
+	<li>Poetry Generation with Genetic Algorithms(BE Thesis):</li><span class='right hide-for-small-only'>Aug 2013 - Aug 2014</span>
+	<p>	Used a Genetic Algorithm approach to poetry generation. Allowed the system to develop a series of rules that automatically generated poetry, from a corpus JIGSAW and WordNet. The system learned from how well the poems were received. </p>
+	<li class='resumeheading'>Applications and Human Factors:</li><p></p>
+	<li>Learning with Google Glass (Project under Prof. Augusto Esteves at Siemens):</li><span class='right hide-for-small-only'>Jul 2015 - Dec 2015</span>
+	<p>	Created a Google Glass Application that enables people to create technical training videos with less effort. Conducted usability tests with 8 participants. </p>
+	<li>Georgia Tech Course Registration Redesign (Advised by Dean David White):</li><span class='right hide-for-small-only'>Jan 2015 - May 2015</span>
+	<p>	Helped redesign the architecture of Georgia Tech’s registration system and create a series of APIs that can be used by students. Worked with the Office of Technology to implement a pilot and test the system. Conducted user research to determine what system the students would like </p>
 </ul>
 <hr />
 </div>
 
 
-<div class='row'>
-<h3> Research </h3>
 
-<ul class="resumelist">
-<li>Learning a Language for Co-Operative Tasks</li>
-<p>Paper presented at the International Conference on Emerging Trends in Computer Science and Engineering, 2013. Created a system by which robots could create their own language and describe tasks. Co-lead of the research team an designed the algorithm. 
-
-<!--<span class='tag'>Java</span>-->
-</p>
-
-<li>Computational Creativity - Digital Poems : </li>
-<p>Allows computers to describe a given topic through poetry. The aim was to make a computer produce creative poetry that is relevant to the topic. Lead research team and designed the algorithm [Java]</p>
-
-</div>
-<hr />
-<div class='row'>
-<h3> Hackathons </h3>
-<ul class="resumelist">
-<li>Harman Kardon, Games for the Hearing Impaired</li><span class='right hide-for-small-only'>Apr 2015</span>
-<p>Using the Harman Kardon Sound API, we created a game like Asteroids fir the blind with a 5.1 speaker system</p>
-<li>AT&T, Smartzone</li><span class='right hide-for-small-only'>Jan 2015</span>
-<p>Smartzone is an app that gathers data using the AT&T Digita Life API for insurance providers. It uses a Neural Network so that insurance providers could use the data from the API to suggest more accurate premiums</p>
-<li>VJTI, 10</li><span class='right hide-for-small-only'>Aug 2011</span>
-<p>10 is a simple minimalistic Android game that tests players reflexes. Available on the Play Store</p>
-</ul>
-<hr />
-</div>
 
 
 @stop

@@ -29,7 +29,7 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li><a href="{{URL::to('projects');}}">Projects</a></li>
+      <li><a href="{{URL::to('projects#robotics');}}">Projects</a></li>
       <li><a href="{{URL::to('resume');}}">Résumé</a></li>
       <li><a href="http://cjds.github.io/">Blog</a></li>
 
