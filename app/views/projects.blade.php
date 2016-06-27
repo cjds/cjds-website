@@ -3,11 +3,9 @@
 
 <style type="text/css">
 	@media only screen and (min-width: 40.063em) { 
-	.imagesotd{
-		vertical-align:middle;margin-top:24px;border-right: 1px solid #666
-	}
-
-
+		.imagesotd{
+			vertical-align:middle;margin-top:24px;border-right: 1px solid #666
+		}
 	}
 
 	h3{
