@@ -35,13 +35,11 @@
     .project-groups a{
     	font-family: 'Mohave',sans-serif;
     	display: block;
-    	font-size: 1.2em;
     	padding:4px;
     	background-color: rgba(90,138,158,0.2);
     	columns: #8aaabe;
-    	min-width: 100px;
-
     }
+
     .project-groups a:hover{
     	color:#fff;
     	background:#5a8a9e;
@@ -101,9 +99,9 @@
 			<div class='small-12 medium-6 columns'>
 				<h3 class='name'>Genetic Algorithm Soccer </h3>
 				<div class='para'>
-				<p>Trained a group of simulated agents to play soccer.</p>
+				<p>Trained a group of simulated agents to play 3d soccer. Each agent has a local view of the environment and evolves a policy over time</p>
 				<p><b>Multi-Robot Systems Project</b></p>
-				<span class='mini-font' > <a href='https://github.com/cjds/PyBioSim'>Github</a>&nbsp;|&nbsp;<a href='#'>Read More</a></span>
+				<span class='mini-font' > <a href='https://github.com/cjds/GeneticSoccerSim'>Github</a>&nbsp;|&nbsp;<a href='http://cjds.github.io/2015/05/03/Multi-Robot-Genetic-Algorithms/'>Read More</a></span>
 				</div>
 			</div>
 		</div>
@@ -115,8 +113,8 @@
 				<h3 class='name'>Robots and Cooperation</h3>
 				<div class='para'>
 				<p>Developed an algorithm between two robots trying to work together on a task</p>
-				<p>Undergrad Project</p>
-				<span class='mini-font' ><a href='#'>Read More</a></span>
+				<p><b>Robotics Class Project</b></p>
+				<span class='mini-font'><a href='http://cjds.github.io/2014/05/09/Evolving-Common-Robot-Languages/'>Read More</a></span></span>
 				</div>
 			</div>
 		</div>
