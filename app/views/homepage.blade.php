@@ -30,8 +30,8 @@
 	<div class='row'>
 	<div class="columns small-12 medium-12 small-centered">
 		<a class="homelink" href='mailto:csaldanha3@gatech.edu'> <img src='{{URL::asset('email-icon.png')}}'   /> </a>
-		<a class="homelink" href='mailto:csaldanha3@gatech.edu'><img src='{{URL::asset('GitHub-Mark-64px.png')}}'  /></a>
-		<a class="homelink" href='mailto:csaldanha3@gatech.edu'> <img src='{{URL::asset('so icon.png')}}'  /> </a>
+		<a class="homelink" href='https://github.com/cjds'><img src='{{URL::asset('GitHub-Mark-64px.png')}}'  /></a>
+		<a class="homelink" href='http://stackoverflow.com/users/1059273/cjds'> <img src='{{URL::asset('so icon.png')}}'  /> </a>
 	</div>
 	
 	</div>
